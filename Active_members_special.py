@@ -4,6 +4,8 @@ import numpy as np
 
 import re as regex
 [2]
+
+#reading the file from the path/location
 users = pd.read_excel('../Active Members/Active Members Updated March 2023.xlsx')
 
 users.head()
